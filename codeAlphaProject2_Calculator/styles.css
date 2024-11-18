@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3a38389f;
+    font-family: Arial, sans-serif;
+}
+
+.title-bar-container {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #1e2d5c9a; 
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+    border: 5px solid #bfbfc09a;
+    border-radius: 8px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.calculator {
+    background: #5e5b5b9c;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    padding: 20px;
+    width: 300px;
+}
+
+#display {
+    width: 88%;
+    height: 50px;
+    margin-bottom: 40px;
+    background: #ffffff;
+    text-align: right;
+    font-size: 24px;
+    border: 12px solid #1e2d5c9a;
+    border-radius: 15px;
+    padding-right: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1e2d5c9a;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #434074;
+}
+.title-container {
+    margin: 7px; /* Remove all margins */
+    width: 96%; /* Set the width to 100% of the parent element */
+    text-align: center; /* Center the title */
+}
+
+.title-container h3 {
+    font-family: Arial, sans-serif; /* Font family */
+    font-size: 15px; /* Font size */
+    color: #ffffff; /* Dark color for contrast */
+    background-color: #1e2d5c9a; /* Background color with transparency */
+    padding: 5px; /* Padding around the text */
+    margin: 0; /* Remove default margin */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
